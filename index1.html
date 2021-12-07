@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <title>Cifra de Cesar</title>
+</head>
+<body>
+        <header>
+          <h1>César de Cifra</h1>
+        </header>
+        <section id="selections">
+          <div class="divSelections">
+      
+            <h2>Escolha uma opção</h2>
+      
+            <div clas="options">
+              <select name="options" id="options">
+                <option id="base64" value="0">Base 64</option>
+                <option id="cifraC" value="1" selected>César de Cifra</option>
+              </select>
+            </div>
+      
+            <div id="codeBox">
+      
+              <h3>O que deseja fazer?</h3>
+              <div id="radioBtns">
+                <div class="radioCode">
+                  <input type="radio" name="radioBtn" id="codeBtn1" value="codeC" checked>
+                  <label for="codeC"> Codificar </label>
+                </div>
+      
+                <div class="radioDecode">
+                  <input type="radio" name="radioBtn" id="decodeBtn2" value="decodeC">
+                  <label for="decodeC"> Decodificar </label>
+                </div>
+              </div>
+            </div>
+      
+            <div class="txtC">
+              <h3>digite aqui</h3>
+      
+              <input type="text" name="txt" id="txt">
+      
+              <h3>Resultado:</h3>
+      
+              <div id="resp">
+              
+              </div>
+      
+              <div id="divIncrement">
+                <input class="key1" id="key1" type='range' min="1" max="69999" step="1" value="1">
+                <output class="outputKey1" id="outputKey1">1</output>
+              </div>
+      
+              <div id="btnDiv">
+                <button id="pressione"> Codificar </button>
+              </div>
+            </div>
+          </div>
+      
+      
+        </section>
+       
+
+   <footer>
+          <a href="https://github.com/JeffLins">Todos os Direitos Reservado para fins educacionais - Jefferson Lima - Resilia 2021</a> 
+    </footer>
+
+
+    <script src="./script1.js"></script>
+</body>
+</html>
