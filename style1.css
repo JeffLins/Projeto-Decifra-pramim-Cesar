@@ -25,6 +25,8 @@ h1{
     justify-content: center;
     background-image: linear-gradient(90deg, #430345, #f403b8, #03e9f4);
     -webkit-background-clip: text;
+     background-clip: text;
+    
     color: transparent;
     font-size: 3em;
 }
